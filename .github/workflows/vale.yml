@@ -26,4 +26,4 @@ jobs:
           https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
           https://github.com/errata-ai/Google/releases/latest/download/Google.zip
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        MY_GH_TOKEN: ${{secrets.MY_GH_TOKEN}}
